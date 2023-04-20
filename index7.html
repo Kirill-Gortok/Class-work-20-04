@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nomer = prompt('Введите свой номер телефона');
+        alert("Вот вашь номер телефона " + nomer);
+
+        let qa = prompt("Введите одно из блюд.Пример:Котлета по Киевски,Окрошка,")
+        if( qa==='Котлета по киевски'|| qa==="котлета по киевски"){
+            alert("куриное филе, сухари панировочные, яйца, молоко, масло сливочное, масло подсолнечное")
+        }
+    else if(qa==="Окрошка"|| qa==="окрошка"){
+            alert('картофель, колбаса вареная, огурцы свежие, яйца, лук зелёный, зелень укропа, соль, квас, сметана, горчица столовая')
+        }
+        else if(qa==='Лагман'|| qa==="лагман"){
+            alert(" говядина, лук репчатый, чеснок, дайкон (белая редька), помидоры, морковь, баклажан, перец болгарский, сельдерей черешковый, перец чили, лапша, лавровый лист, зира...")
+        }
+
+    let m = prompt("Введите первое число")
+    let n = prompt("Введите второе число")
+    if(m % 2 == 0 || n % 2 == 0){
+        alert("Число четное")
+    }
+    else{
+        alert("Число не четное ")
+    }
+
+    let sta = prompt("Введите сторону А")
+    let stb = prompt("Введите сторону Б")
+    alert("Площадь прямоугольника равна " + sta*stb)
+
+    let som = prompt("Введите кол-во сомов")
+    alert(som/88,1)
+
+    let fir = prompt("Введите первое число")
+    let two = prompt("Введите второе число")
+    let thr = prompt("Введите третье число")
+    let suma = fir+two+thr;
+         
+    alert("Сумма трех чисел равна " + suma)
+
+
+    let a = prompt('1');
+    let b = 3;
+    let c = 3;
+    console.log(a + b + c);
+    // </script>
+</body>
+</html>\
